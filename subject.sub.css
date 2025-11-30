@@ -91,13 +91,14 @@
         cursor: pointer;
         font-size: 0.9em;
         transition: background-color 0.3s;
-        font-weight: bold;
+    
     }
     
     .load-more-btn {
         background-color: #f0f0f0;
         color: #333;
         border: 1px solid #ccc;
+        font-weight: bold;
     }
 .show-less-btn {
         background-color: #ffcccc;
