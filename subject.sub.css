@@ -1,0 +1,110 @@
+/* CSS */
+    .test-container {
+      
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 2px;
+        background-color: #fff;
+        
+    }
+
+    .subject-slot {
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .subject-slot:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .subject-name-header {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #002266;
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .test-list {
+        list-style: none ! important; /* बुलेट पॉइंट (Black Dots) पूरी तरह से हटाना */
+        padding: 0 !important; /* डिफ़ॉल्ट लिस्ट पैडिंग हटाना */
+        margin: 0 !important; /* डिफ़ॉल्ट लिस्ट मार्जिन हटाना */
+    }
+    
+    .hidden-item {
+        display: none !important;
+    }
+    
+    .test-item-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 8px; 
+        padding-bottom: 8px; 
+        border-bottom: 1px solid #eee; 
+    }
+    
+    .test-item-row:last-of-type {
+        border-bottom: none;
+    }
+   .test-name {
+        font-size: 0.9em;
+        color: #1a1a1a;
+        flex-grow: 1;
+        padding-right: 10px;
+        line-height: 1.4;
+        vertical-align: top;
+      font-weight: bold;
+    }
+
+    .solve-button {
+      font-weight: bold;
+        text-decoration: none;
+        background-color: #007bff;
+        color: white ! important;
+        padding: 0px 15px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 0.9em;
+        transition: background-color 0.3s;
+        display: block;
+        min-width: 80px; 
+        max-width: 80px;
+        flex-shrink: 0; 
+        margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .solve-button:hover {
+        background-color: #ff6600;
+    }
+
+    .load-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+    }
+    
+    .load-more-btn {
+        background-color: #f0f0f0;
+        color: #333;
+        border: 1px solid #ccc;
+    }
+.show-less-btn {
+        background-color: #ffcccc;
+        color: #cc0000;
+        margin-top: 5px;
+        border: 1px solid #ff9999;
+    }
+    
+    .hide-btn {
+        display: none;
+    }
