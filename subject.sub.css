@@ -20,7 +20,7 @@
     }
 
     .subject-name-header {
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: bold;
         color: #262626;
         margin-bottom: 10px;
@@ -55,7 +55,7 @@
         color: #333333;
         flex-grow: 1;
         padding-right: 10px;
-        line-height: 1.4;
+        line-height: 1.2;
         vertical-align: top;
        font-weight: bold;
     }
@@ -68,7 +68,7 @@
         padding: 0px 15px;
         border-radius: 4px;
         text-align: center;
-        font-size: 0.9em;
+        font-size: 1em;
         transition: background-color 0.3s;
         display: block;
         min-width: 80px; 
@@ -89,7 +89,7 @@
         margin-top: 15px;
         border-radius: 2px;
         cursor: pointer;
-        font-size: 0.9em;
+        font-size: 1em;
         transition: background-color 0.3s;
     
     }
