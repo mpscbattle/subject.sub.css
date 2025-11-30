@@ -22,7 +22,7 @@
     .subject-name-header {
         font-size: 1.1em;
         font-weight: bold;
-        color: #002266;
+        color: #008080;
         margin-bottom: 10px;
         width: 100%;
         display: block;
@@ -52,7 +52,7 @@
     }
    .test-name {
         font-size: 0.9em;
-        color: #1a1a1a;
+        color: #262626;
         flex-grow: 1;
         padding-right: 10px;
         line-height: 1.4;
