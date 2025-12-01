@@ -20,9 +20,9 @@
     }
 
     .subject-name-header {
-        font-size: 1.2em;
+        font-size: 1.3em;
         font-weight: bold;
-        color: #262626;
+        color: #404040;
         margin-bottom: 10px;
         width: 100%;
         display: block;
@@ -52,10 +52,10 @@
     }
    .test-name {
         font-size: 1em;
-        color: #333333;
+        color: #595959;
         flex-grow: 1;
         padding-right: 10px;
-        line-height: 1.2;
+        line-height: 1.1;
         vertical-align: top;
        font-weight: bold;
     }
